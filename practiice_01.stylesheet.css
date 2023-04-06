@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  height: 83px;
+  width: 1280px;
+  background-color: #323131;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  height: 83px;
+  opacity: 0.7;
+}
+
+.header-list {
+  float: right;
+  
+}
+.header-list a:hover {
+  background-color: black;
+}
+
+.header-list a {
+  float: left;
+  font-size: 28px;
+  color: white;
+  padding: 20px 30px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.stripe {
+  float: left;
+  border-left: 5px solid pink;
+}
+
+.top-image01 {
+  height: 565px;
+  width: 1030px;
+  padding: 237px 0 150px 0;
+  margin:  auto;
+}
+
+.top-image01 img {
+  width: 1030px;
+  height: 565px;
+}
+
+.WORKS-wrapper {
+  height: 665px;
+  width: 972px;
+  margin:300px 0 150px 100px;
+}
+
+.WORKS-container {
+  height:73px;
+  width: 391px;
+  background-color: white;
+  position: relative;
+}
+
+.WORKS-name {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+
+}
+
+.border {
+  border-top: 2px solid black;
+}
+
+.border2 {
+float: right;
+width:120px;
+position: absolute;
+top: 60px;
+right:0;
+}
+
+.border1 {
+  width:100%;
+  position: absolute;
+  top: 45px;
+}
+
+.content {
+  float: left;
+  height: 199px;
+  width: 217px;
+  margin: 50px 0 0 100px;
+}
+
+.content img {
+  width: 217px;
+  border-radius: 50%;
+}
+
+.content p {
+  margin: 0;
+  font-size:10px;
+}
+
+.content h2 {
+  margin: 0;
+}
+
+.SKILL-wrapper {
+  height: 532px;
+  width: 973px;
+  margin: 150px 0 150px 100px;
+  position:relative;
+}
+
+.SKILL-container {
+  height:73px;
+  width: 391px;
+  position: relative;
+}
+
+.SKILL-name {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.SKILL-contents {
+  height: 336px;
+  width: 866px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.SKILL-content {
+  float: left;
+  
+  height: 68px;
+  width: 50%;
+  margin-top: 40px;
+  
+}
+
+.SKILL-content img {
+  height: 68px;
+  float: left;
+}
+
+.SKILL-content p {
+  margin: 0;
+  font-size:10px;
+}
+
+.SKILL-content h2 {
+  
+  font-size: 15px;
+  margin: 0;
+}
+
+.about-container {
+  height: 73px;
+  width: 391px;
+  position: relative;
+}
+.about-name {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.about-wrapper {
+  height: 479px;
+  width: 901px;
+  margin: 150px 0 200px 100px;
+  position: relative;
+}
+
+.about-contents {
+  width: 722px;
+  height: 280px;
+  position: absolute;
+  right: 0;
+  bottom:0;
+}
+
+.about-contents h4 {
+  font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.about-contents h2 {
+  font-size: 18px
+}
+
+.about-contents img {
+  float: left;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+.contact-container {
+  height:73px;
+  width: 391px;
+  position: relative;
+}
+.contact-name {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.contact-wrapper {
+  height: 450px;
+  width: 786px;
+  margin: 150px 0 200px 100px;
+  position: relative;
+}
+
+.contact-form {
+  width: 492px;
+  height: 350px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  height: 100px;
+  width: 1280px;
+  background-color: #323131;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  font-size: 50px;
+  line-height: 100px;
+  display: block;
+}
+
+.e-mail {
+  background-color: #323131;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 80px 0 80px 0;
+}
+
+.contact-form h4 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.contact-list {
+  
+  margin: 0 auto;
+}
+
+.contact-list a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  padding: 20px 20px;
+  display: block;
+  transition: all 0.5s;
+  margin-left: 20px;
+}
+
+.contact-list a:hover {
+  background-color: #808080;
+}
